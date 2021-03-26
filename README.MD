@@ -25,3 +25,9 @@ this is a billing project sample developed with python and django to manage smal
 - create django project: python manage.py migrate
 - create django project: python manage.py runserver
 
+###  ⏰  Migrations
+- create migrations:  python manage.py makemigrations
+- show migrations:  python manage.py showmigrations
+- run migrations to pg: python manage.py sqlmigrate inv name_migrations
+- connect to db: python manage.py dbshell
+
